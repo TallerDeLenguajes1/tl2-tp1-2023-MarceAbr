@@ -6,9 +6,11 @@ namespace tl2_tp1_2023_MarceAbr
         private string telefono;
         private List<Cadete> listadoCadetes;
 
-        public Cadeteria(string nombre, string telefono, L)
+        public Cadeteria(string nombre, string telefono, Cadete cadete)
         {
-
+            this.nombre = nombre;
+            this.telefono = telefono;
+            listadoCadetes.Add(cadete);
         }
     }
 }
