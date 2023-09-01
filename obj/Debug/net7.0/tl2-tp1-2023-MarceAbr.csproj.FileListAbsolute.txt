@@ -1,0 +1,15 @@
+C:\Users\Marcelo\Desktop\PU\Segundo Semestre\Taller 2\tl2-tp1-2023-MarceAbr\bin\Debug\net7.0\tl2-tp1-2023-MarceAbr.exe
+C:\Users\Marcelo\Desktop\PU\Segundo Semestre\Taller 2\tl2-tp1-2023-MarceAbr\bin\Debug\net7.0\tl2-tp1-2023-MarceAbr.deps.json
+C:\Users\Marcelo\Desktop\PU\Segundo Semestre\Taller 2\tl2-tp1-2023-MarceAbr\bin\Debug\net7.0\tl2-tp1-2023-MarceAbr.runtimeconfig.json
+C:\Users\Marcelo\Desktop\PU\Segundo Semestre\Taller 2\tl2-tp1-2023-MarceAbr\bin\Debug\net7.0\tl2-tp1-2023-MarceAbr.dll
+C:\Users\Marcelo\Desktop\PU\Segundo Semestre\Taller 2\tl2-tp1-2023-MarceAbr\bin\Debug\net7.0\tl2-tp1-2023-MarceAbr.pdb
+C:\Users\Marcelo\Desktop\PU\Segundo Semestre\Taller 2\tl2-tp1-2023-MarceAbr\obj\Debug\net7.0\tl2-tp1-2023-MarceAbr.csproj.AssemblyReference.cache
+C:\Users\Marcelo\Desktop\PU\Segundo Semestre\Taller 2\tl2-tp1-2023-MarceAbr\obj\Debug\net7.0\tl2-tp1-2023-MarceAbr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcelo\Desktop\PU\Segundo Semestre\Taller 2\tl2-tp1-2023-MarceAbr\obj\Debug\net7.0\tl2-tp1-2023-MarceAbr.AssemblyInfoInputs.cache
+C:\Users\Marcelo\Desktop\PU\Segundo Semestre\Taller 2\tl2-tp1-2023-MarceAbr\obj\Debug\net7.0\tl2-tp1-2023-MarceAbr.AssemblyInfo.cs
+C:\Users\Marcelo\Desktop\PU\Segundo Semestre\Taller 2\tl2-tp1-2023-MarceAbr\obj\Debug\net7.0\tl2-tp1-2023-MarceAbr.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo\Desktop\PU\Segundo Semestre\Taller 2\tl2-tp1-2023-MarceAbr\obj\Debug\net7.0\tl2-tp1-2023-MarceAbr.dll
+C:\Users\Marcelo\Desktop\PU\Segundo Semestre\Taller 2\tl2-tp1-2023-MarceAbr\obj\Debug\net7.0\refint\tl2-tp1-2023-MarceAbr.dll
+C:\Users\Marcelo\Desktop\PU\Segundo Semestre\Taller 2\tl2-tp1-2023-MarceAbr\obj\Debug\net7.0\tl2-tp1-2023-MarceAbr.pdb
+C:\Users\Marcelo\Desktop\PU\Segundo Semestre\Taller 2\tl2-tp1-2023-MarceAbr\obj\Debug\net7.0\tl2-tp1-2023-MarceAbr.genruntimeconfig.cache
+C:\Users\Marcelo\Desktop\PU\Segundo Semestre\Taller 2\tl2-tp1-2023-MarceAbr\obj\Debug\net7.0\ref\tl2-tp1-2023-MarceAbr.dll
