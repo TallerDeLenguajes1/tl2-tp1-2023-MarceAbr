@@ -18,11 +18,13 @@ namespace tl2_tp1_2023_MarceAbr
             pedidos = new List<Pedido>();
             this.cantEntregados = 0;
         }
-
-        public void JornalACobrar()
+        public float JornalACobrar()
         {
-
+            float costo;
+            costo = cantEntregados * 500;
+            return costo;
         }
+
         //Agregar pedido
         public void agregarPedido(Pedido pedido)
         {
@@ -56,6 +58,26 @@ namespace tl2_tp1_2023_MarceAbr
                 Console.WriteLine("Estado: " + ped.getEstado() + "\n");
             }
             Console.WriteLine("Entregados: " + getCantidadEntregado());
+        }
+
+        //Devuelve el Nro del pedido
+        public bool existePedido(int numPed)
+        {
+            bool valor = false;
+            foreach (var ped in pedidos)
+            {
+                if (ped.getNro() == numPed)
+                {
+                    return valor = true;
+                }
+            }
+            return valor;
+        }
+
+        //Borrar un pedido
+        public void borrarPedidoDeCadete(Pedido ped)
+        {
+            pedidos.Remove(ped);
         }
 
         public int getID()

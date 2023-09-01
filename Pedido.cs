@@ -32,14 +32,17 @@ namespace tl2_tp1_2023_MarceAbr
         {
 
         }
-        //Falta control para borrar en caso de cancelar el pedido.
+        //Ver bien.
         public void cambiarEstado(estado estado)
         {
-            if (this.estados == estado.NoEntregado && estado == estado.Entregado)
+            if (this.estados == estado.NoEntregado)
             {
                 this.estados = estado;  
+            } else if(estado == estado.NoEntregado)
+            {
+                Console.WriteLine("No puede cambiar el estado a 'No entregado'");
             } else {
-                Console.WriteLine("El pedido esta Entregado o Cancelado");
+                Console.WriteLine("El estado del pedido ya fue cambiado anteriormente");
             }
         }
         

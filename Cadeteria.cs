@@ -13,19 +13,34 @@ namespace tl2_tp1_2023_MarceAbr
             listadoCadetes = new List<Cadete>();
         }
 
+        //Agrega nuevo cadete
         public void agregarNuevoCadete(Cadete cadete)
         {
             listadoCadetes.Add(cadete);
         }
 
+        //Crea un nuevo pedido
         public void agregarNuevoPedido(Cadete cadete, Pedido pedido)
         {
             cadete.agregarPedido(pedido);
         }
 
+        //Asigna o reasigna un pedido a un cadete
         public void asignarPedidoACadete(Cadete cad, Pedido ped)
-        {
-            cad.agregarPedido(ped);
+        {   
+            if (cad.existePedido(ped.getNro()))
+            {
+                Console.WriteLine("Este cadete ya tiene este pedido");
+            } else {
+                foreach (var cadete in listadoCadetes)
+                {
+                    if(cadete.existePedido(ped.getNro()))
+                    {
+                        cadete.borrarPedidoDeCadete(ped);
+                    }
+                }
+                cad.agregarPedido(ped);
+            }
         }
 
         public void listarCadetes()
