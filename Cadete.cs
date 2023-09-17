@@ -2,16 +2,16 @@ namespace tl2_tp1_2023_MarceAbr
 {
     public class Cadete
     {
-        private int id;
+        private int id = 0;
         private string nombre;
         private string direccion;
         private string telefono;
         private List<Pedido> pedidos;
         private int cantEntregados;
 
-        public Cadete(int id, string nombre, string direccion, string telefono)
+        public Cadete(string nombre, string direccion, string telefono)
         {
-            this.id = id;
+            this.id++;
             this.nombre = nombre;
             this.direccion = direccion;
             this.telefono = telefono;
