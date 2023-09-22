@@ -14,13 +14,19 @@ namespace tl2_tp1_2023_MarceAbr
         private string obs;
         private Cliente cliente;
         estado estados;
+        Cadete cadete;
 
-        public Pedido(int nro, string obs, string nombreC, string direccionC, string telefonoC, string datosReferenciaDireccionC)
+        public Pedido(int nro, string obs, string nombreC, string direccionC, string telefonoC, string datosReferenciaDireccionC, Cadete cad)
         {
             this.nro = nro;
             this.obs = obs;
             var cliente = new Cliente(nombreC,direccionC, telefonoC, datosReferenciaDireccionC);
             this.estados = estado.NoEntregado;
+        }
+
+        public void agregarCadete(Cadete cad)
+        {
+            this.cadete = cad;
         }
 
         public void verDireccionCliente()

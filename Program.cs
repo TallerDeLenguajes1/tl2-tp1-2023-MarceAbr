@@ -12,18 +12,18 @@ cadeteria.agregarNuevoCadete(cad1);
 cadeteria.agregarNuevoCadete(cad2);
 cadeteria.agregarNuevoCadete(cad3);
 
-var ped1 = new Pedido(1,"asdasd", "Lionel", "Miami", "18122022", "Estatua cerca");
-var ped2 = new Pedido(2,"aaaaaa", "Andres", "Miami", "7777777", "estadio cerca");
-var ped3 = new Pedido(3,"dddddd", "Messi", "Miami", "8888888", "escuela cerca");
+// var ped1 = new Pedido(1,"asdasd", "Lionel", "Miami", "18122022", "Estatua cerca");
+// var ped2 = new Pedido(2,"aaaaaa", "Andres", "Miami", "7777777", "estadio cerca");
+// var ped3 = new Pedido(3,"dddddd", "Messi", "Miami", "8888888", "escuela cerca");
 
 cadeteria.listarCadetes();
-cadeteria.asignarPedidoACadete(cad1, ped1);
-cadeteria.asignarPedidoACadete(cad2, ped2);
-cadeteria.asignarPedidoACadete(cad1, ped3);
+// cadeteria.asignarPedidoACadete(cad1, ped1);
+// cadeteria.asignarPedidoACadete(cad2, ped2);
+// cadeteria.asignarPedidoACadete(cad1, ped3);
 
-cad1.cambiarEstado(2, estado.Entregado);
-cad1.cambiarEstado(3, estado.Entregado);
-cad1.mostrarPedidos();
+// cad1.cambiarEstado(2, estado.Entregado);
+// cad1.cambiarEstado(3, estado.Entregado);
+// cad1.mostrarPedidos();
 
 // Console.WriteLine("Cantidad a pagar: " + cad1.JornalACobrar());
 // cadeteria.asignarPedidoACadete(cad1, ped2);
